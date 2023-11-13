@@ -85,7 +85,8 @@ Before, I created a workspace and now I created an app. With the app, there is c
 The model can be seen on the tinker section of my doc. 
 
 Next week, I will take notes on Operators and try another ios example. Along the way, I will see what I can do with the information I learn. So far, the var and let are pretty self-explanatory. 
-
+11/11/23
+[Hanna Swift](https://docs.google.com/document/d/117mnhurpPyfvKrfNXuWEKhi8vDd9t-bjswmGg0kDv04/edit#bookmark=id.vcqcyef7lr41)
 <!--X/X/X:
 * Text
 -->
