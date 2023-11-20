@@ -89,6 +89,31 @@ Next week, I will take notes on Operators and try another ios example. Along the
 11/11/23 <br>
 [Hanna Swift](https://docs.google.com/document/d/117mnhurpPyfvKrfNXuWEKhi8vDd9t-bjswmGg0kDv04/edit#bookmark=id.vcqcyef7lr41)
 
+11/19/23 <br>
+Function with parameter is made with : and callded with :.
+``` swift
+func greetAgain(person: String) -> String {
+    return "Hello again, " + person + "!"
+}
+print(greetAgain(person: "Anna"))
+// Prints "Hello again, Anna!"
+```
+For functions without parameter...
+``` swift
+func sayHelloWorld() -> String {
+    return "hello, world"
+}
+print(sayHelloWorld())
+// Prints "hello, world"
+```
+Then ones with multiple parameter are written like js and java => seperated by comma.
+
+[Closures](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/closures) are group code that executes together, without creating a named function. Closures can capture and store references to any constants and variables from the context in which they’re defined.
+
+I followed a tutorial on [youtube](https://www.youtube.com/watch?v=SEoOjSiTIB4&list=PLsCTahQzr8wKUYcMbUMvU5AKdkaLYKweZ&index=4) and built a [contact screen](https://docs.google.com/document/d/117mnhurpPyfvKrfNXuWEKhi8vDd9t-bjswmGg0kDv04/edit#bookmark=id.oxmicurglwjn). (=> make the number work next)
+
+Next week => https://edabit.com/challenges/swift#! begin on making a to-do list
+
 <!--X/X/X:
 * Text
 Look for tutorials 
