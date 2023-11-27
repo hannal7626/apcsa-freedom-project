@@ -112,8 +112,25 @@ Then ones with multiple parameter are written like js and java => seperated by c
 
 I followed a tutorial on [youtube](https://www.youtube.com/watch?v=SEoOjSiTIB4&list=PLsCTahQzr8wKUYcMbUMvU5AKdkaLYKweZ&index=4) and built a [contact screen](https://docs.google.com/document/d/117mnhurpPyfvKrfNXuWEKhi8vDd9t-bjswmGg0kDv04/edit#bookmark=id.oxmicurglwjn). (=> make the number work next)
 
-Next week => https://edabit.com/challenges/swift#! begin on making a to-do list
+Next week => weather app
 
+11/20/23
+This week I made the number from last week's app clickable. To do so, I need the number to move the user to call using `Text("Call [123-456-7890](tel:1234567890)"):`.
+
+I worked on a weather app depending on the user's location. This means I need to get the user's location. First, I make a Manager group to organize this from other groups and inside it I create a file for location that I will import CoreLocation at. This way location element are accessible. 
+
+To change the icon of the app, I go to assets and place the right size for the different platforms. Website to resize @[https://imageresizer.com/resize/download/65643f3f6adb46f12cb3489a](web).
+
+Then I created a manager variable that stores CLLocationManager() aka managers app's location behavior, either the object configure, start, and stop location services. Also in apple's [https://developer.apple.com/documentation/corelocation/configuring_your_app_to_use_location_services](developer page). Publich two variable location and isLoading to false. Override init() and the manager delegate to self. Create functions one when user requests the location, what happens after(could type didupdatelocation tab), and what if an error occurs(could type didFailWithError tab). 
+
+To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework. 
+
+So lot of the file are overlapping and it is important to name the file before the variable for example to get the location variable in locationManger as locationManger.location.
+
+Next week => continue weather app
+<!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
+
+<!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
 Look for tutorials 
