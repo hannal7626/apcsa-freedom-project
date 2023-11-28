@@ -18,7 +18,7 @@ This is the [document](https://docs.google.com/document/d/117mnhurpPyfvKrfNXuWEK
 11/5/23: <br>
 Today, I will be trying all the new components from the basic document following a [youtube crash course](https://www.youtube.com/watch?v=8Xg7E9shq0U&list=TLPQMDYxMTIwMjNO9FoPe9_46A&index=3)- 29:11 and trying to build a mini ios app.
 
-Before anything, I need to open the Xcode app. Then, create a new file -> workspace -> blank playground. I had an aha moment when I moved my files around in my finer folder. It caused an error because my Playground was inside of my swift folder that stored my main frame. 
+Before anything, I need to open the Xcode app. Then, create a new file -> workspace -> blank playground. I had an aha moment when I moved my files around in my finer folder. It caused an error because my Playground was inside of my swift folder that stored my main frame.
 * `import Foundation` = /creates all the necessary components of swift
 
 ``` swift
@@ -28,7 +28,7 @@ var yourName = "Rosa" //can be assigned again
 ```
 So not only can `let` not be assigned again, it is also immutable. If below was let instead of var.
 ``` swift
-var names = [ 
+var names = [
     myName,
     yourName
 ]
@@ -44,7 +44,7 @@ foo2 = "Foo 2"
 foo
 foo2
 ```
-This code does not over the previous. `foo` will return "Foo" and `foo2` will return "Foo 2" but does not change the value of `foo`. But, on line 2, a new instance is created because it is set to a previous value. 
+This code does not over the previous. `foo` will return "Foo" and `foo2` will return "Foo 2" but does not change the value of `foo`. But, on line 2, a new instance is created because it is set to a previous value.
 
 * Wow moment -> NSMutableArray- like  casting in Java
 
@@ -77,14 +77,14 @@ func changeTheArray(_ array: NSArray){//NSArray is a subclass of NSMutableArray,
 changeTheArray(someNames)
 someNames
 ```
-I think this is the same as the last two examples. It is a different way of change what value the `let` or `var` holds. 
+I think this is the same as the last two examples. It is a different way of change what value the `let` or `var` holds.
 
 <b>Time to build...</b>
-Before, I created a workspace and now I created an app. With the app, there is code called ContentView. 
+Before, I created a workspace and now I created an app. With the app, there is code called ContentView.
 * For `.font` 144 is the point system which looks nice and big across all platforms. (similar to CSS)
-The model can be seen on the tinker section of my doc. 
+The model can be seen on the tinker section of my doc.
 
-Next week, I will take notes on Operators and try another ios example. Along the way, I will see what I can do with the information I learn. So far, the var and let are pretty self-explanatory. 
+Next week, I will take notes on Operators and try another ios example. Along the way, I will see what I can do with the information I learn. So far, the var and let are pretty self-explanatory.
 
 11/11/23 <br>
 [Hanna Swift](https://docs.google.com/document/d/117mnhurpPyfvKrfNXuWEKhi8vDd9t-bjswmGg0kDv04/edit#bookmark=id.vcqcyef7lr41)
@@ -117,33 +117,37 @@ Next week => weather app
 11/20/23
 This week I made the number from last week's app clickable. To do so, I need the number to move the user to call using `Text("Call [123-456-7890](tel:1234567890)"):`.
 
-I worked on a weather app depending on the user's location. This means I need to get the user's location. First, I make a Manager group to organize this from other groups and inside it I create a file for location that I will import CoreLocation at. This way location element are accessible. 
+I worked on a weather app depending on the user's location. This means I need to get the user's location. First, I make a Manager group to organize this from other groups and inside it I create a file for location that I will import CoreLocation at. This way location element are accessible.
 
-To change the icon of the app, I go to assets and place the right size for the different platforms. Website to resize @[https://imageresizer.com/resize/download/65643f3f6adb46f12cb3489a](web).
+To change the icon of the app, I go to assets and place the right size for the different platforms. Website to resize @ [web](https://imageresizer.com/resize/download/65643f3f6adb46f12cb3489a).
 
-Then I created a manager variable that stores CLLocationManager() aka managers app's location behavior, either the object configure, start, and stop location services. Also in apple's [https://developer.apple.com/documentation/corelocation/configuring_your_app_to_use_location_services](developer page). Publich two variable location and isLoading to false. Override init() and the manager delegate to self. Create functions one when user requests the location, what happens after(could type didupdatelocation tab), and what if an error occurs(could type didFailWithError tab). 
+Then I created a manager variable that stores CLLocationManager() aka managers app's location behavior, either the object configure, start, and stop location services. Also in apple's [developer page](https://developer.apple.com/documentation/corelocation/configuring_your_app_to_use_location_services). Published two variable locations and isLoading to false. Override init() and the manager delegate to self. Create functions one when user requests the location, what happens after(could type didupdatelocation tab), and what if an error occurs(could type didFailWithError tab).
 
-To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework. 
+To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
 
 So lot of the file are overlapping and it is important to name the file before the variable for example to get the location variable in locationManger as locationManger.location.
 
 Next week => continue weather app
+
+11/27/23:
+
+
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
-Look for tutorials 
+Look for tutorials
 - written
-- video 
+- video
 
-Coding => 
+Coding =>
 - try what you see in the doc/tutorial
 - change things! tinker!
 - make your own small examples
 -->
 
-<!-- 
+<!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
