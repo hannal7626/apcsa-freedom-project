@@ -133,6 +133,7 @@ Next week => continue weather app
 This week, I tried to connect the app to my iPhone using the builder tool. I tried using a cable and failed. I tried downloading Xcode on my phone and that did not work.
 I hwill again next time -> https://developer.apple.com/documentation/xcode/running-your-app-in-simulator-or-on-a-device.
 
+Next I made an account on [Open Weather API](https://openweathermap.org/api).
 
 12/4/23: <br>
 Today, I integrated xcode to my GitHub account using a [YouTube tutorial](https://youtu.be/T3QPQc0LW5w?feature=shared). For future reference, I need to add my GitHub account with a token (I used a new one called xcode: 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) then when I was in the app, I went into integrate, made a new git repository and created a new repository on GitHub. I used that project's ssh on my ide so I could add it to this file. Also that was for the weather app.
