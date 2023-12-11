@@ -140,7 +140,7 @@ Today, I integrated xcode to my GitHub account using a [YouTube tutorial](https:
 
 Now, I am going to continue the weather app.
 
-Using the API call for longitude and latitude 
+Using the API call for longitude and latitude, I can paste that in my new WeatherManager file and in that link, I could change specific values to variables that I made on my file. 
 
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
