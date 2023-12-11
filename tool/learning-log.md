@@ -130,7 +130,7 @@ So lot of the file are overlapping and it is important to name the file before t
 Next week => continue weather app
 
 11/27/23:
-Today, I integrated xcode to my GitHub account using a YouTube tutorial
+Today, I integrated xcode to my GitHub account using a [YouTube tutorial](https://youtu.be/T3QPQc0LW5w?feature=shared). For future reference:
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
