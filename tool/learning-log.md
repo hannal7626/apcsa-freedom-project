@@ -143,7 +143,7 @@ Now, I am going to continue the weather app.
 Using the API call for longitude and latitude, I can paste that in my new WeatherManager file and in that link, I could change specific values to variables that I made on my file.
 Honestly, as I was doing this, I had a few troubles perhaps because the tutorial is from 2 years ago but I am thinking of dropping this app for now and possibly returning when I figure it out. ([Weather App](https://youtu.be/X2W9MPjrIbk?feature=shared) @ 19:01)
 
-So decided to try something with emojis and selection with this [tutorial](https://www.youtube.com/watch?v=nqTcAzPS3oc). Quite a lot of the codes are outdated which meant I needed to do research outside the tutorial. On the [offical page](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/) Enumerations needs to be made line by line instead of how the speaker called it all in one line. The same with how `var collection: Emoji = .🍰` did not work and I manipulated it bit and used `@State var selection: Emoji = .cake`. 
+So decided to try something with emojis and selection with this [tutorial](https://www.youtube.com/watch?v=nqTcAzPS3oc). Quite a lot of the codes are outdated which meant I needed to do research outside the tutorial. On the [offical page](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/) Enumerations needs to be made line by line instead of how the speaker called it all in one line. The same with how `var collection: Emoji = .🍰` did not work and I manipulated it bit and used `@State var selection: Emoji = .cake`. The final result is in [Emoji file](/Emoji).
 
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
