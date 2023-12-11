@@ -130,9 +130,11 @@ So lot of the file are overlapping and it is important to name the file before t
 Next week => continue weather app
 
 11/27/23:
+
+12/4/23:
 Today, I integrated xcode to my GitHub account using a [YouTube tutorial](https://youtu.be/T3QPQc0LW5w?feature=shared). For future reference, I need to add my GitHub account with a token (I used a new one called xcode: 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) then when I was in the app, I went into integrate, made a new git repository and created a new repository on GitHub. I used that project's ssh on my ide so I could add it to this file. Also that was for the weather app.
 
-Now, I am going to continue the weather app. 
+Now, I am going to continue the weather app.
 
 
 
