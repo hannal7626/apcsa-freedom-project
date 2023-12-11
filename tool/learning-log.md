@@ -140,6 +140,7 @@ Today, I integrated xcode to my GitHub account using a [YouTube tutorial](https:
 
 Now, I am going to continue the weather app.
 
+Using the API call for longitude and latitude 
 
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
