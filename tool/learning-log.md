@@ -146,8 +146,8 @@ Honestly, as I was doing this, I had a few troubles perhaps because the tutorial
 So decided to try something with emojis and selection with this [tutorial](https://www.youtube.com/watch?v=nqTcAzPS3oc). Quite a lot of the codes are outdated which meant I needed to do research outside the tutorial. On the [offical page](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/) Enumerations needs to be made line by line instead of how the speaker called it all in one line. The same with how `var collection: Emoji = .🍰` did not work and I manipulated it bit and used `@State var selection: Emoji = .cake`. The final result is in [Emoji file](/Emoji).
 
 12/11/23
-This week, I am reviewing the [SwiftUI Tutorials page](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views#introduction). So in my code space, I could make my page selectable and use the SwiftUI Inspector to change colors, fonts, etc. design stuff which is really cool. 
-
+This week, I am reviewing the [SwiftUI Tutorials page](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views#introduction). So in my code space, I could make my page selectable and use the SwiftUI Inspector to change colors, fonts, etc. design stuff which is really cool.
+Another cool thing is that images can seen from different angles. I tries this with a picture I found on Pinterest. 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
 <!--Then I began on making a to-do list app. -->
