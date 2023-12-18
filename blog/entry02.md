@@ -4,8 +4,11 @@
 Content:<br>
 I have been trying different tutorial exercises to learn Swift. I made [Emojis](../tool/Emojis), Contact page, watched youtube crash courses.
 
-This is my code moments before I transfer my data onto a github repo.
+This is my code moments before I transfer my data onto a GitHub repository.
 <img src="../img/emoji.png"/>
+
+[Open Weather API](https://openweathermap.org/api) is a good app that could be used for location, although it might not be necassary for what the app I want to create.
+
 
 Engineering Development Progress:
 I am currently in the Engineering Design Process stages 1, 2, and 3. I have identified a common problem: people struggle with cooking, especially beginner cookers like myself. Creating an app to assist in the cooking process and allowing users to add and share new recipes would be immensely helpful. I am researching ways to address this issue, and my proposed solution is to develop this app.
