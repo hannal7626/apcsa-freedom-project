@@ -147,7 +147,7 @@ So decided to try something with emojis and selection with this [tutorial](https
 
 12/11/23
 This week, I am reviewing the [SwiftUI Tutorials page](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views#introduction). So in my code space, I could make my page selectable and use the SwiftUI Inspector to change colors, fonts, etc. design stuff which is really cool.
-Another cool thing is that images can seen from different angles. I tries this with a picture I found on Pinterest. 
+Another cool thing is that images can seen from different angles. I tries this with a picture I found on Pinterest. To do this, I need to have a file that will be used for that. 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
 <!--Then I began on making a to-do list app. -->
