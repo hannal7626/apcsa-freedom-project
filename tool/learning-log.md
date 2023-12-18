@@ -149,7 +149,11 @@ So decided to try something with emojis and selection with this [tutorial](https
 This week, I am reviewing the [SwiftUI Tutorials page](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views#introduction). So in my code space, I could make my page selectable and use the SwiftUI Inspector to change colors, fonts, etc. design stuff which is really cool.
 Another cool thing is that images can seen from different angles. I tries this with a picture I found on Pinterest. To do this, I need to have a file that will be used for that. After I have added my Pinterest image as a file, I write an Image(_:) initializer, to pass it the name of the image to display. I could use styling`.clipShape(...)` to make the image viewed as a certain shape.
 To change the frame/stroke I used `Circle().stroke(.white, lineWidth: 4)
-            }`. 
+            }`.
+
+I had a mini quiz on Swift, this is notes from the quiz.
+* To declare the view's layout, do so in the body property
+* 
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
