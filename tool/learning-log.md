@@ -153,7 +153,7 @@ To change the frame/stroke I used `Circle().stroke(.white, lineWidth: 4)
 
 I had a mini quiz on Swift, this is notes from the quiz.
 * To declare the view's layout, do so in the body property
-* To user modifier methods to configure a view:
+* To user modifier methods to configure a view: `.methodtype(.value)`
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
