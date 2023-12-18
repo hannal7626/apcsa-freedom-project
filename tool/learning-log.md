@@ -156,6 +156,8 @@ I had a mini quiz on Swift, this is notes from the quiz.
 * To declare the view's layout, do so in the body property
 * To user modifier methods to configure a view: `.methodtype(.value)`
 
+I think the SwiftIU inspector could be with used with figma to make styling faster so I could check that out next week. 
+
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
 <!--Then I began on making a to-do list app. -->
