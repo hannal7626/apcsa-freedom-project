@@ -2,7 +2,7 @@
 ##### 12/11/23
 
 Content:<br>
-I have been trying different tutorial exercises to learn Swift. I made WhyNotTry, 
+I have been trying different tutorial exercises to learn Swift. I made [Emojis](../tool/Emojis), Contact page, some youtube crash c
 
 Engineering Development Progress:
 I am currently in the Engineering Design Process stages 1, 2, and 3. I have identified a common problem: people struggle with cooking, especially beginner cookers like myself. Creating an app to assist in the cooking process and allowing users to add and share new recipes would be immensely helpful. I am researching ways to address this issue, and my proposed solution is to develop this app.
