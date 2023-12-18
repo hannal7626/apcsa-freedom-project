@@ -17,7 +17,7 @@ Engineering Development Progress:
 I am currently in the Engineering Design Process stages 2 and 3. I am researching the tool that will be used to create my app and see what properties may contribute to my app. So far, the styling part is most useful, especially how to make images pop out, and having a contract link clickable.
 
 Skills:
-Along learning a new programming language, I am strengthening my skill of How to Google. I use the internet to gather information about Swift, and I apply the same skill to explore cooking recipes. Additionally, I am enhancing my ability to read by studying documents and following the steps outlined in them.
+Along learning a new programming language, I am strengthening my skill of How to Google. I use the internet to study my tool and cover any of the knowledge gap. Additionally, I am working on my logical reasoning 
 
 FP goal for winter break
 <!-- SwiftIU inspector with figma -->
