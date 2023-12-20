@@ -19,7 +19,11 @@ I am currently in the Engineering Design Process stages 2 and 3. I am researchin
 Skills:
 Along learning a new programming language, I am strengthening my skill of How to Google. I use the internet to study my tool and cover any of the knowledge gap. Additionally, I am working on my logical reasoning to determine which of these properties will be most useful. 
 
-FP goal for winter break
+FP goal for winter break:
+- Continue using SwiftIU Inspecter
+- Think about the different pages for the app
+  - What is needed for each
+
 <!-- SwiftIU inspector with figma -->
 
 [Previous](entry01.md) | [Next](entry03.md)
