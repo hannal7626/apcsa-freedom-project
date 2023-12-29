@@ -158,6 +158,7 @@ I had a mini quiz on Swift, this is notes from the quiz.
 
 I think the SwiftIU inspector could be with used with figma to make styling faster so I could check that out next week. 
 
+12/18/23 <br>
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
 <!--Then I began on making a to-do list app. -->
