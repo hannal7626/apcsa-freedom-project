@@ -159,6 +159,15 @@ I had a mini quiz on Swift, this is notes from the quiz.
 I think the SwiftIU inspector could be with used with figma to make styling faster so I could check that out next week. 
 
 12/18/23 <br>
+I am making a [macOS App](https://developer.apple.com/tutorials/swiftui/creating-a-macos-app). It seems like files download in a zip can be dragged into the project. For macOS apps, I need to add a macOS target to the project. 
+Apparently like with the watchOS app, the default app structure is not needed because I could reuse the one you already have.
+I could create a new custom view in the MacLandmarks group targeting macOS called LandmarkDetail to have three files called LandmarkDetail. Each serves the same purpose in the view hierarchy, but provides an experience tailored to a particular platform. New studd -> I could do commands `struct LandmarkCommands: Commands {
+    var body: some Commands {
+        SidebarCommands()
+    }
+}` with such `@focusedBinding`. 
+
+
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
 <!--Then I began on making a to-do list app. -->
