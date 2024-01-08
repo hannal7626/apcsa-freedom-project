@@ -167,6 +167,23 @@ I could create a new custom view in the MacLandmarks group targeting macOS calle
     }
 }` with such `@focusedBinding`. 
 
+01/01/24 <br>
+I am just saving this because I thought it meant be useful later on: [Programming](https://www.youtube.com/watch?v=8Xg7E9shq0U)
+There is a possible way to combine firebase with swift to complete user login according to the [youtube video](https://www.youtube.com/watch?v=QJHmhLGv-_0). To do, I can have the firebase template of a sign in copied onto xcode. There needs to be a NavigationStack so the app can easily move from the login page to the sign in page.
+```
+NavigationStack{
+ Vstack{
+  //image
+  //form fields
+  //sign in button
+  //sign out button
+ }
+}
+```
+However, all this does not do anything yet?
+How to make a profiler view page?
+The template structure would have a profile image, general, and account sections. 
+
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
