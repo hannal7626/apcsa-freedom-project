@@ -184,6 +184,16 @@ However, all this does not do anything yet?
 How to make a profiler view page?
 The template structure would have a profile image, general, and account sections. 
 
+01/09/24<br>
+Since, I will have lists of recipes and ingredients on my app, I will need to know how to make a list and navigate that using [SwiftTutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) Add landmark as a stored property of LandmarkRow. When you add the landmark property, the preview in the canvas stops working because the LandmarkRow type needs a landmark instance during initialization. nside the preview macro, add the landmark parameter to the LandmarkRow initializer, specifying the first element of the landmarks array.
+Now everytime I add a new list, I will have a new landmark. Like so:
+```java
+#Preview("Turtle Rock") {
+    LandmarkRow(landmark: landmarks[0])
+}
+```
+The number in the brackets will differ depending on how many list I have.
+When I have my desired amount of list, I can manipulate the lists. 
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
