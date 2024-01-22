@@ -197,6 +197,38 @@ When I have my desired amount of list, I can manipulate the lists.
 
 <!--Next week => https://edabit.com/challenges/swift#! begin on making a to-do list-->
 
+01/16/24
+import Foundation
+
+class TodoList {
+    var tasks: [String] = []
+
+    func addTask(_ task: String) {
+        tasks.append(task)
+        print("Task added: \(task)")
+    }
+
+    func displayTasks() {
+        if tasks.isEmpty {
+            print("No tasks in the to-do list.")
+        } else {
+            print("To-Do List:")
+            for (index, task) in tasks.enumerated() {
+                print("\(index + 1). \(task)")
+            }
+        }
+    }
+}
+
+// Example Usage
+let myTodoList = TodoList()
+
+myTodoList.addTask("Buy groceries")
+myTodoList.addTask("Finish coding assignment")
+myTodoList.addTask("Go for a run")
+
+myTodoList.displayTasks()
+
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
