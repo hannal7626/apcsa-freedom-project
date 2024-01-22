@@ -220,7 +220,7 @@ class TodoList {
     }
 }
 
-// Example Usage
+
 let myTodoList = TodoList()
 
 myTodoList.addTask("Buy groceries")
