@@ -229,6 +229,17 @@ myTodoList.addTask("Go for a run")
 
 myTodoList.displayTasks()
 
+01/22/24
+To Do List video -> https://www.youtube.com/watch?v=K-4blUReYoU&list=TLPQMzAwMTIwMjRmRsnTbFs61w&index=4
+Today, I integrated xcode to my GitHub account using a [YouTube tutorial](https://youtu.be/T3QPQc0LW5w?feature=shared). For future reference, I need to add my GitHub account with a token (I used a new one called xcode: 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) then when I was in the app, I went into integrate, made a new git repository and created a new repository on GitHub. I used that project's ssh on my ide so I could add it to this file. Also that was for the weather app.
+
+Now, I am going to continue the weather app.
+
+Using the API call for longitude and latitude, I can paste that in my new WeatherManager file and in that link, I could change specific values to variables that I made on my file.
+Honestly, as I was doing this, I had a few troubles perhaps because the tutorial is from 2 years ago but I am thinking of dropping this app for now and possibly returning when I figure it out. ([Weather App](https://youtu.be/X2W9MPjrIbk?feature=shared) @ 19:01)
+
+So decided to try something with emojis and selection with this [tutorial](https://www.youtube.com/watch?v=nqTcAzPS3oc). Quite a lot of the codes are outdated which meant I needed to do research outside the tutorial. On the [offical page](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/) Enumerations needs to be made line by line instead of how the speaker called it all in one line. The same with how `var collection: Emoji = .🍰` did not work and I manipulated it bit and used `@State var selection: Emoji = .cake`. The final result is in [Emoji file](/Emoji).
+
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
