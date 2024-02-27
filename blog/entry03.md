@@ -58,6 +58,11 @@ Since, I will have lists of recipes and ingredients on my app, I will need to kn
 }
 The number in the brackets will differ depending on how many list I have. When I have my desired amount of list, I can manipulate the lists.
 
+Engineering Development Progress: I am currently in the Engineering Design Process stages 2 and 3. I am researching the tool that will be used to create my app and see what properties may contribute to my app. Right now, I am learning how to add properties and functions. 
+
+Skills: Along learning a new programming language, I am strengthening my skill of How to Google. I use the internet to study my tool and cover any of the knowledge gap. Additionally, I am working on my "how to read" skill to understand the context that I am given.
+
+Plan:
 I plan to figure how to cooperate in xcode whether that is through github or on the xcode app or seperate ide platform. 
 
 [Previous](entry02.md) | [Next](entry04.md)
