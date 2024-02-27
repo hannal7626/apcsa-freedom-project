@@ -2,7 +2,8 @@
 ##### 02/11/24
 
 Content:
-As I have been tinkering to see what I can utilize in my project. 
+As I have been tinkering to see what I can utilize in my project. I could use similarities to the emoji app to make buttons that the user may press on my app when they want to access a recipe or when the user wants to add a new recipe to the app that everyone else can view. To enable that the user had a easy time with navigation, a navigation controller could be implemented, facilitating smooth transitions between various screens. I will have the names, ingredients, and instructions, with options for storage including Core Data or a local database. 
+
 <!-- tinker-->
 Today, I integrated xcode to my GitHub account using a YouTube tutorial. For future reference, I need to add my GitHub account with a token (I used a new one called xcode: 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) then when I was in the app, I went into integrate, made a new git repository and created a new repository on GitHub. I used that project's ssh on my ide so I could add it to this file. Also that was for the weather app.
 
@@ -37,7 +38,7 @@ I am making a macOS App. It seems like files download in a zip can be dragged in
 
 <!--01/01/24-->
 I am just saving this because I thought it meant be useful later on: Programming There is a possible way to combine firebase with swift to complete user login according to the youtube video. To do, I can have the firebase template of a sign in copied onto xcode. There needs to be a NavigationStack so the app can easily move from the login page to the sign in page.
-
+```java
 NavigationStack{
  Vstack{
   //image
@@ -46,6 +47,7 @@ NavigationStack{
   //sign out button
  }
 }
+```
 However, all this does not do anything yet? How to make a profiler view page? The template structure would have a profile image, general, and account sections.
 
 <!--01/09/24-->
@@ -55,6 +57,9 @@ Since, I will have lists of recipes and ingredients on my app, I will need to kn
     LandmarkRow(landmark: landmarks[0])
 }
 The number in the brackets will differ depending on how many list I have. When I have my desired amount of list, I can manipulate the lists.
+
+I plan to figure how to cooperate in xcode whether that is through github or on the xcode app or seperate ide platform. 
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
