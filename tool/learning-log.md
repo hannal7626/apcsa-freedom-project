@@ -252,6 +252,17 @@ Then I created a manager variable that stores CLLocationManager() aka managers a
 To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
 
 So lot of the file are overlapping and it is important to name the file before the variable for example to get the location variable in locationManger as locationManger.location.
+
+02/26/24
+We are working on setting up xcode to github for collaborations using a [tutorial](https://www.coscreen.co/blog/xcode-collaboration/). 
+
+I worked on a weather app depending on the user's location. This means I need to get the user's location. First, I make a Manager group to organize this from other groups and inside it I create a file for location that I will import CoreLocation at. This way location element are accessible.
+
+To change the icon of the app, I go to assets and place the right size for the different platforms. Website to resize @ [web](https://imageresizer.com/resize/download/65643f3f6adb46f12cb3489a).
+
+Then I created a manager variable that stores CLLocationManager() aka managers app's location behavior, either the object configure, start, and stop location services. Also in apple's [developer page](https://developer.apple.com/documentation/corelocation/configuring_your_app_to_use_location_services). Published two variable locations and isLoading to false. Override init() and the manager delegate to self. Create functions one when user requests the location, what happens after(could type didupdatelocation tab), and what if an error occurs(could type didFailWithError tab).
+
+To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
