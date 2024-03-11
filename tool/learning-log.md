@@ -263,6 +263,9 @@ To change the icon of the app, I go to assets and place the right size for the d
 Then I created a manager variable that stores CLLocationManager() aka managers app's location behavior, either the object configure, start, and stop location services. Also in apple's [developer page](https://developer.apple.com/documentation/corelocation/configuring_your_app_to_use_location_services). Published two variable locations and isLoading to false. Override init() and the manager delegate to self. Create functions one when user requests the location, what happens after(could type didupdatelocation tab), and what if an error occurs(could type didFailWithError tab).
 
 To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
+
+03/04/24
+For my freedom product, I want to make a gallery picture for my recipe pictures so I am learning to make that. 
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
