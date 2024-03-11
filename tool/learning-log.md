@@ -265,7 +265,27 @@ Then I created a manager variable that stores CLLocationManager() aka managers a
 To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
 
 03/04/24
-For my freedom product, I want to make a gallery picture for my recipe pictures so I am learning to make that. 
+For my freedom product, I want to make a carousel for my recipe pictures so I am learning to make that. I found a [youtube video](https://www.youtube.com/watch?v=DgTPWYM5Hm4&list=TLPQMTEwMzIwMjQuo8rfWp6jtg&index=4) and the format provided by the [swift website](https://developer.apple.com/documentation/tvml/carousel/) to learn. 
+```swift
+<carousel>
+    <section>
+        <lockup>
+            <img src="path to images on your server/Car_Movie_453x255_C.png" width="453" height="255" />
+            <title>Scene 1</title>
+        </lockup>
+        <lockup>
+            <img src="path to images on your server/Car_Movie_500x600.png" width="500" height="600" />
+            <title>Scene 2</title>
+        </lockup>
+        <lockup>
+            <img src="path to images on your server/Car_Movie_308x308_B.png" width="308" height="308" />
+            <title>Scene 3</title>
+        </lockup>
+    </section>
+</carousel>
+```
+Error with `Instance member 'toolbar' cannot be used on type 'View' swift` look in  [here](https://forums.developer.apple.com/forums/thread/727262).
+
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
