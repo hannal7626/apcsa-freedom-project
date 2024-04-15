@@ -297,6 +297,15 @@ Honestly, as I was doing this, I had a few troubles perhaps because the tutorial
 
 So decided to try something with emojis and selection with this [tutorial](https://www.youtube.com/watch?v=nqTcAzPS3oc). Quite a lot of the codes are outdated which meant I needed to do research outside the tutorial. On the [offical page](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/enumerations/) Enumerations needs to be made line by line instead of how the speaker called it all in one line. The same with how `var collection: Emoji = .🍰` did not work and I manipulated it bit and used `@State var selection: Emoji = .cake`. The final result is in [Emoji file](/Emoji).
 
+04/08/24
+
+To change the icon of the app, I go to assets and place the right size for the different platforms. Website to resize @ [web](https://imageresizer.com/resize/download/65643f3f6adb46f12cb3489a).
+
+Then I created a manager variable that stores CLLocationManager() aka managers app's location behavior, either the object configure, start, and stop location services. Also in apple's [developer page](https://developer.apple.com/documentation/corelocation/configuring_your_app_to_use_location_services). Published two variable locations and isLoading to false. Override init() and the manager delegate to self. Create functions one when user requests the location, what happens after(could type didupdatelocation tab), and what if an error occurs(could type didFailWithError tab).
+
+To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
+
+So lot of the file are overlapping and it is important to name the file before the variable for example to get the location variable in locationManger as locationManger.location.
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
