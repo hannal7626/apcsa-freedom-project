@@ -306,6 +306,39 @@ Then I created a manager variable that stores CLLocationManager() aka managers a
 To make a welcome page, I create another group called WelcomeView with a file called WelcomeView where this file's parent view is locationManager. This will have a VStack inside a VStack that displays a welcome message and instruction. Then make a LocationButton() after importing CoreLocationUI because LocationButton() is from the framework.
 
 So lot of the file are overlapping and it is important to name the file before the variable for example to get the location variable in locationManger as locationManger.location.
+
+04/30/24
+This week I mainly worked on the mvp of my fp so some tinkering I did was mapping out the home page like.
+```java
+NavigationView {
+List(Recipe.all) { recipe in
+Text (recipe. name)
+•navigationTitle( "Recipes")
+}
+}
+. navigationViewStyle(.stack)
+```
+I used a model extension in below to do so. 
+``` java
+extension Recipe {
+    static let all: [Recipe] = [
+        Recipe(
+            name: "Dragon fruit drink",
+            image: "N/A",
+            ingredients: "1 Apple, 1 Dragon fruit, ½ Mango, 1 cup, Coconut Milk (optional), and Honey",
+            directions: "1. Cut up the fruits 2. Blend the honey, apple, dragon fruit, and mango until liquid 3.Pour into a cup and serve!",
+            category: "drinks"),
+//            datePublished: "String",
+//            url: String)
+        Recipe(
+            name: "Fermented lemon drink",
+            image: "N/A",
+            ingredients: "Lemons (5 is enough),Honey, Sugar, and Warm water",
+            directions: "1. Cut up the lemons. 2. Boil ¼ cup of sugar with ¼ cup of honey and ¼ cup of water. Wait until melted. 3. Put the cut out lemons in a container and add the boiled liquid. 4. You can scoop out the container and add warm water to drink. Otherwise, ferment the drink in the fridge for as long as 1 month!",
+            category: "drinks")
+    ]
+}
+```
 <!--Then I began on making a to-do list app. -->
 <!--X/X/X:
 * Text
